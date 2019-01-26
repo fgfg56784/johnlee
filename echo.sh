@@ -1,2 +1,2 @@
 #! /bin/bash
-echo haha
+echo john
