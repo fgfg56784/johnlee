@@ -1,0 +1,83 @@
+OOP:面向对象的编程
+类(class): 用来描述具有相同属性和方法的对象的集合. 它定义了该集合中每个对象所共有的属性和方法,对象是类的实例.
+
+实例化: 创建一个类的实例, 类的具体对象.
+方法:类中定义的函数.
+对象:通过类定义的数据结构实例. 对象包括两个数据成员(类变量和实例变量)和方法.
+
+bird :  名字,  颜色, 动作.....
+
+bird = {'name': '猫头鹰', 'color': '黑'}
+def fly():
+
+def eat():
+
+创建类:
+    使用驼峰形式定义类名:
+        class BirdFly:
+            def  __init__(self,  变量1, 变量2):
+
+            def func1():
+
+            def func1():
+        
+组合应用
+
+创建子类
+
+继承
+
+通过继承覆盖方法
+
+
+多重继承
+
+__init__方法
+
+__str__方法
+
+__call__方法
+
+re模块
+正则表达式
+mac地址 48位 每4位变为一个
+
+文本
+tam tbm tcm tacm txm tym                        
+t0m t1m t2m t8m t10m t9m                        
+t m t-m t$m t^m t_m t@m                         
+tabm tababm tabababm tababababm tabababababm    
+tm ttm tttm ttttm tttttm ttttttm tttttttm 
+
+正则匹配
+t[0-9]m t[^0-9]m
+t[a-z]m  t[A-Z]m
+t\wm    t\Wm
+t\dm    t\Dm
+t\sm    t\Sm
+t?m 有时候?需要转义 t\?m
+tab+m    t(ab)+m
+s/([a-z])/\U\1/  把每行第一个匹配的字母大写转换为小写,如果改所有在s/// 后加g
+s/([a-z])/\L\1/  把每行第一个匹配的字母大写转换为小写,如果改所有在s/// 后加g
+
+<tom>  与 \btom\b 一致  有些地方不支持其中一种
+
+import re
+re.match() #返回开头匹配第一个内容
+re.fullmatch() #返回完全匹配的内容
+re.search() #返回只要匹配的第一个内容
+    m = re.search('foo', 'seafood')
+    m.group()
+re.findall()  #返回所有匹配内容的列表
+re.finditer(): #返回的是由匹配对象构成的生成器
+re.sub('', '', '')  #用第二个''中的字符串,替换第一个''中的字符串, 第三个''中可以填写第一个''的字符串,出来的结果则是第二个''中的字符串 ( 都可用变量代替)
+    例如  re.sub('x', 'john', 'hi x, haw are you x') #返回为 'hi john, haw are john'
+
+patt = re.compile() #把想要正则表达式先放入() 中,存放起来匹配时候   patt.search()   #把模式先编译,可提升效率,推荐使用
+
+
+贪婪匹配:    在默认情况下, *, + 总是尽量多的匹配
+
+
+
+

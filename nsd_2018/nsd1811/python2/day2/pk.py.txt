@@ -1,0 +1,10 @@
+import pickle
+shop_list = {}.fromkeys(['john', 'bob'], 23)
+print(shop_list)
+with open(r'C:\mytt', 'wb') as fobj:
+    pickle.dump(shop_list, fobj)
+
+with open(r'C:\mytt', 'rb') as f:
+    fil = pickle.load(f)
+print(type(fil))
+print(fil)

@@ -1,0 +1,5 @@
+atuple = ('a', 'b', 1, 0)
+print(atuple)
+print(list(atuple))
+adict = dict(('ab',['john', 12]))
+print(adict)
