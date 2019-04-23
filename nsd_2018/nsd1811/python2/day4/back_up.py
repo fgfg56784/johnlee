@@ -3,7 +3,6 @@ import time
 import os 
 import tarfile
 
-
 def full_backup(src, dst, md5file):
     src_fname = os.path.split(src)
     tar_fname = '%s_full_%s.tar.gz' % (src_fname[0], time.strftime('%Y%m%d'))
@@ -12,9 +11,8 @@ def full_backup(src, dst, md5file):
     os.chdir(src_fname[0])
     tar1.add(src_fname[1])
 
-
-def incr_backup():
-
+def incr_backup(src, dst, md5file):
+    
 
 if __name__ == "__main__":
     src = input('需要备份的文件: ')

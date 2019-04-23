@@ -1,0 +1,10 @@
+sqlalchemy
+1.安装
+    本地或在线 pip3 install sqlalchemy
+
+2.ORM对象关系映射
+Object : 对象, 对应python 中的 class
+Relationship: 关系,对应关系型数据库 例如mysql 
+Map: 映射
+
+将
