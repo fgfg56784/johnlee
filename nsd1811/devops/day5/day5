@@ -1,0 +1,19 @@
+
+
+api (Application   Programming   Interface) = 应用程序编程接口
+
+requests :  get, post
+
+zabbix:
+    snmp 接入方式
+
+CI/CD: 持续集成/持续交付
+
+编译执行: C / go 
+解释执行: python / php / shell
+
+编译语言执行效率高,     编译语言比解释语言执行效率快 千倍
+解释语言开发效率高
+go 语言 开发效率 堪比python  执行效率 堪比 C 语言
+
+jenkins 实现CI 持续集成

@@ -1,0 +1,25 @@
+pymysql-> 连接数据库connect(host, port, user, passwd, db) -> 游标cursor -> create select update delete drop alter ....
+
+
+sqlalchemy->engine=  create-engine('mysql+pymysql://root:1234@127.0.0.1/johndb?charset=utf8', encoding='utf8')\
+->Base = declarative_base()
+->class Departments(Base):
+        def.............................
+
+download 与 geturl 下载网易图片时报错 not encode utf8  .....
+
+编码方式
+data = '中国'
+data.encode()
+b'\xe4\xb8\xad\xe5\x9b\xbd'
+data.encode('gbk')
+b'\xd6\xd0\xb9\xfa'
+
+邮件编程
+smtp(simple mail transfer protocol) 简单邮件传输协议
+
+1.准备邮件
+
+2.邮件头部信息
+
+3.邮件正文
