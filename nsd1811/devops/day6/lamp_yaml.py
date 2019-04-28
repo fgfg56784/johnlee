@@ -1,0 +1,36 @@
+[
+    'hosts': 'webserver'',
+    'remote_user': 'root',
+    'tasks':
+        [
+            'name: install mariadb-server,
+            yum: {
+                name: mariadb-server,
+                state: installed
+             }
+        ]
+        [
+            name: start mariadb,
+            service: {
+                name: mariadb,
+                state: started,
+                enabled: yes
+            }
+        ]
+        [
+            name: install httpd,
+            yum: {
+                name: httpd,
+                state: installed
+             }
+        ]
+        [
+            name: start httpd,
+            service: {
+                name: httpd,
+                state: started,
+                enabled: yes
+            }
+        ]
+
+]

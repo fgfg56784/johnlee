@@ -1,0 +1,17 @@
+<html></html>
+<head></head>
+<body></body>
+ul>tr*2>li*3
+ol>tr*2>li*3
+<form action='https://' target='_blank'>
+<label for='st'><input type='radio' name='type' value='shentong' id='st'>申通</label>
+<input type='text' placeholder='search keyword' name=''>
+<input type='submit' name=''>
+</form>
+<hr>
+<s></s>
+<a></a>
+<a herf='#id'></a>
+<a name='id'></a>
+<a herf='https://www.baidu.com'>百度搜索<a>
+
