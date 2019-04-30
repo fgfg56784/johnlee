@@ -1,0 +1,29 @@
+.container {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 50px;
+    background: rgb(255,255,150);
+}
+
+.footer {
+    height: 50px;
+    background: rgb(255,255,150);
+}
+
+.left {
+    text-align: center;
+    float: left;
+    height: 300px;
+    width: 1200px;
+    background: rgb(255,255,200);
+}
+.right {
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    margin-left: 1200px;
+    background: rgb(255,200,255);
+ }

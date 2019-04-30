@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="carousel slide" id="linux-carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#linux-carousel" data-slide-to="0"></li>
+            <li data-target="#linux-carousel" data-slide-to="1"></li>
+            <li data-target="#linux-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="http://www.sogou.com" target="_blank">
+                    <img src="static/imgs/first.jpg">
+                </a>
+            </div>
+            <div class="item">
+                <img src="static/imgs/second.jpg">
+            </div>
+            <div class="item">
+                <img src="static/imgs/third.jpg">
+            </div>
+        </div>
+        <a href="#linux-carousel" data-slide="prev" class="carousel-control left">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#linux-carousel" data-slide="next" class="carousel-control right">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <form action="" class="form-inline">
+                <label>用户名: </label>
+                <input type="text" class="form-control">
+                <label>密码: </label>
+                <input type="password" class="form-control">
+                <input type="submit" value="登陆" class="btn-primary">
+                <input type="submit" value="注册" class="btn-primary">
+            </form>
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li><a class="active" href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+            </ul>
+        </div>    
+    </div>
+    <div class="foot"></div>
+</div>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $('#linux-carousel').carousel({
+        interval : 3000
+    })
+</body>
+</html>

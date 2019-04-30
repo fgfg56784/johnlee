@@ -1,0 +1,21 @@
+.container {
+    width: 1760px;
+    margin: 0 auto;
+}
+.header {
+    height: 50px;
+    background: rgb(160, 255, 255);
+}
+.main{
+    height: 300px;
+    background: rgb(180, 50, 150);
+}
+.footer {
+    height: 50px;
+    background: rgb(180, 255, 255);
+    text-align: center;
+    line-height: 50px; /*文字与行高一致,使文字一直在该行正中央*/
+}
+.footer a.link {
+    text-decoration: none;
+}

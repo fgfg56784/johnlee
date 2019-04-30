@@ -1,0 +1,73 @@
+.container {
+    margin: 0 auto;
+    width: 1700px;
+}
+.header {
+    text-decoration: none;
+    text-align: right;
+    padding: 16px 16px;
+    height: 200px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556536763100&di=9a0f44ce0abaa3fbeb5510f3d1485397&imgtype=0&src=http%3A%2F%2Fdemo.qodeinteractive.com%2Fcentral%2Fwp-content%2Fuploads%2F2013%2F05%2Fheader.jpg);
+}
+
+/*img {*/
+  /*opacity:0.4;*/
+  /*filter:alpha(opacity=40); !* IE8 及其更早版本 *!*/
+/*}*/
+
+.header  h1 {
+    color: red;
+}
+
+.left {
+    float: left;
+    height: 300px;
+    width: 150px;
+    background: rgb(255, 255, 180);
+}
+.left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.left ul a {
+    display:block;
+    width:118px;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+/*.lift ul li a:active {*/
+    /*color: blue;*/
+    /*background: white;*/
+/*}*/
+.left ul li a:hover {
+    color: #ffffff;
+    background: green;
+}
+
+.center {
+    margin-left: 150px;
+    height: 300px;
+    width: 1050px;
+    background: rgb(255, 45, 190);
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "AR PL UMing TW MBE";
+    text-decoration: none;
+    text-align: center;
+}
+.right {
+    float: right;
+    /*margin-left: 1300px;*/
+    height: 300px;
+    width: 500px;
+    background: rgb(255, 255, 200);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15pt
+}
+.footer {
+    height: 50px;
+    background: rgb(255, 255, 170);
+}

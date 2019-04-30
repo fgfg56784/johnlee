@@ -1,0 +1,32 @@
+*{
+        font-size: 12pt;
+}
+body{
+    background: black;
+    color: red;
+}
+hr{
+    color: red;
+}
+.g1{
+    color: green;
+}
+#div3{
+    text-align: center;
+}
+h1,h2{
+    background: royalblue;
+}
+div.c1{
+    color: coral;
+}
+a:link {
+    /*text-underline-mode: gold;*/
+    text-decoration: none;
+}
+a:hover {
+    font-size: 100pt;
+}
+a.visited {
+    color: lightblue;
+}
