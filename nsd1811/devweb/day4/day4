@@ -1,0 +1,77 @@
+Django
+    是一个开放源代码的Web应用框架,由python写成
+    1.django : openstack -> horizon
+    2.tornado 
+    3.flask
+
+Django框架的核心组件有:
+    
+
+
+python虚拟环境
+    可以理解为把python环境安装到一个文件夹中, 然后安装python 软件包 就是把软件安装到这个文件夹中了. 
+    可以为每个项目都创建一个虚拟环境,在虚拟环境中部署软件. 当项目完成后, 这些软件不再需要了,可以简单的把虚拟环境文件夹删除了.
+
+    1.创建虚拟环境
+        python3 -m venv /opt/djenv/
+    2.激活虚拟环境
+        source /opt/djenv/bin/activate
+        (1)在线安装
+        pip install django==1.11.6
+        (2)离线安装
+        cd .../dj_pkgs/
+        pip install *
+
+    创建项目
+    1. 创建
+        django-admin startproject mysite
+        cd mysite
+        tree
+        .
+        ├── manage.py  #用于管理项目
+        └── mysite
+            ├── __init__.py     #python2需要该文件,使mysite成为包
+            ├── settings.py     #配置
+            ├── urls.py     #程序的入口文件
+            └── wsgi.py     #部署
+
+
+
+创建应用
+1. 可以将项目才分成多个用用
+2. 多个应用可以组合到一起形成项目
+3. 应用一旦编写完成后, 可以作为独立的功能, 集成到不同的项目中
+
+创建投票应用
+    1. 创建名为polls的应用
+        在mysite创建 polls
+        python manage.py startapp polls
+    2. 集成应用到项目里面
+        mysite/settings.py
+        INSTALLED_APPS: = [
+            .........,
+            'polls',
+        ]
+    3.规划网址
+    4.授权
+
+
+创建首页
+    1.配置路由
+    2.为首页创建index函数
+    3.创建模板文件
+
+创建模型
+    1. 规划
+        问题表
+        选项表
+    2.创建模型: 仍然采用ORM的方式
+    
+Pythonapi
+pip api接口
+    1.进入django python sgall
+
+    2.导入模型
+
+
+
