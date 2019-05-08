@@ -5,7 +5,7 @@ from .models import Question, Choice
 #用户发送请求时,将会把请求作为第一个参数传递
 def index(request):
     questions = Question.objects.order_by('-pub_date')
-    return render(request, 'index.html',{'questions':questions})
+    return render(request, 'index.html', {'questions':questions})
 
 def detail(request, question_id):
     question = Question.objects.get(id=question_id)
